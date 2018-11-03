@@ -9,16 +9,16 @@ public:
     /**
      * @brief Construct a new Point object
      * 
-     * @param x vertical position of the point
-     * @param y horizontal position of the point
+     * @param x horizontal coordinate of the point
+     * @param y vertical coordinate of the point
      */
     Point(float x, float y);
 
     /**
      * @brief Set the position of the point
      * 
-     * @param x new vertical position
-     * @param y new horizontal position
+     * @param x new horizontal coordinate
+     * @param y new vertical coordinate
      */
     void setPosition(float x, float y);
 
@@ -31,27 +31,27 @@ public:
     float getDistance(Point* point) const;
 
     /**
-     * @brief set the vertical position
+     * @brief set the horizontal coordinate
      * 
-     * @param x vertical position
+     * @param x horizontal coordinate
      */
     void  setX(float x);
     /**
-     * @brief set the horizontal position
+     * @brief set the vertical coordinate
      * 
-     * @param y horizontal position
+     * @param y vertical coordinate
      */
     void  setY(float y);
     /**
-     * @brief get vertical position
+     * @brief get horizontal coordinate
      * 
-     * @return float vertical position
+     * @return float horizontal coordinate
      */
     float getX();
     /**
-     * @brief get horizontal position
+     * @brief get vertical coordinate
      * 
-     * @return float horizontal position
+     * @return float vertical coordinate
      */
     float getY();
 
